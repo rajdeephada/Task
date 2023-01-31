@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+
+        .nav{
+            padding-left: 400px;
+            background-color: black;
+            width: 100%;
+            height:50px;
+            /* margin: 0px auto; */
+           
+        }
+        .nav ul{
+            padding: 0;
+        }
+        .nav ul li{
+            background-color: black ;
+            float: left;
+            width: 150px;
+            list-style: none;
+            font-size: 20px;
+            text-align: center;
+            margin: 10px 10px 10px 0px ;
+        }
+
+        .nav ul li a{
+            text-decoration: none;
+            
+            color:brown;
+            
+        }
+        .nav ul li a:hover{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .nav ul li ul{
+            display: none;
+        position:inherit;
+        }
+
+        .nav ul li:hover ul{
+            display: block;
+            float: none;
+            
+        }
+        .nav ul li:hover{ 
+           /* color: rgb(42, 165, 91) */
+        }
+        .dropdown li:hover{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="">Home</a></li>
+                <li><a href="">Mobile</a>
+                    <ul class="dropDown">
+                        <li><a href="">Oppo</a></li>
+                        <li><a href="">Vivo</a></li>
+                        <li><a href="">NOthing</a></li>
+                        <li><a href="">Iphone</a></li>
+                        <li><a href="">Nokia</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Fashion</a></li>
+                <li><a href="">About As</a></li>
+            </ul>
+    </div>
+    
+</body>
+</html>
